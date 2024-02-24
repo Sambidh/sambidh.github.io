@@ -139,8 +139,8 @@
       >
         <div class="container">
           <a class="navbar-brand" href="sambidh.github.io">
-            <span style="color: #19c7e5">Sambidh</span
-            ><span style="color: #fff">Rai</span>
+            <span style="color: #19c7e5">S</span
+            ><span style="color: #c8c8c8">R</span>
           </a>
           <button
             class="navbar-toggler"
@@ -162,13 +162,13 @@
                 <a class="nav-link" href="#!">Home</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#!">Resume</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#!">Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#!">Certificates</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#!">Reference</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#!">About</a>
@@ -203,8 +203,8 @@
         <!-- Intro -->
         <div
           id="intro"
-          class="bg-image vh-40"
-          style="background-image: url('images/im1.jpg')"
+          class="bg-image"
+          style="background-image: url('images/im1.jpg'); height: calc(80vh)"
         >
           <div class="container-fluid d-flex h-100 p-1 text-center text-white">
             <div
@@ -216,45 +216,77 @@
                 </div>
               </header>
 
-              <main
-                class="px-5 d-flex align-items-center justify-content-center"
+              <div
+                class="container mt-5 h-100 p-5 text-white bg-honeydew rounded-3"
               >
-                <div class="text-start me-5">
-                  <!-- Your name and details -->
-                  <h1 class="display-5">Sambidh Rai</h1>
-                  <p class="lead">
-                    Data Analyst well versed in SQL, Python, Excel, Power BI
-                    <a
-                      class="text-dark link-offset-2 link-underline link-underline-opacity-0"
-                      href="https://www.linkedin.com/in/sambidhrai/"
-                      target="_blank"
+                <div class="row">
+                  <div class="col-md-6 text-start">
+                    <h1 class="display-2 text-dark">Hello</h1>
+                    <p class="lead text-muted namedis">
+                      My name is
+                      <a
+                        class="text-info link-offset-2 link-underline link-underline-opacity-0"
+                        href="https://www.linkedin.com/in/sambidhrai/"
+                        target="_blank"
+                      >
+                        Sambidh Rai
+                      </a>
+                    </p>
+                    <p class="lead">
+                      <button
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#resumeModal"
+                        title="PC users can see my resume now, mobile users must download to see my resume!"
+                        href="#top"
+                        class="btn btn-lg btn-secondary fw-bold border-white bg-muted rounded-pill"
+                      >
+                        Resume
+                      </button>
+                    </p>
+                    <div
+                      class="modal fade"
+                      id="resumeModal"
+                      tabindex="-1"
+                      aria-labelledby="resumeModalLabel"
+                      aria-hidden="true"
                     >
-                      @Sambidh
-                    </a>
-                  </p>
-                  <p class="lead">
-                    <a
-                      href="#top"
-                      class="btn btn-lg btn-secondary fw-bold border-white bg-black"
-                    >
-                      Learn more
-                    </a>
-                  </p>
+                      <div class="modal-dialog modal-fullscreen modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="resumeModalLabel">
+                              My Resume
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <embed
+                              src="Sambidh cv.pdf"
+                              type="application/pdf"
+                              width="100%"
+                              height="100%"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ms-auto">
+                    <img
+                      src="images/sambidh1.png"
+                      alt="Sambidh Rai"
+                      class="img-fluid img-thumbnail rounded-circle float-end"
+                      width="60%"
+                      height="auto"
+                    />
+                  </div>
                 </div>
-
-                <div class="ms-auto">
-                  <!-- picture here -->
-                  <img
-                    src="images/sambidh1.png"
-                    alt="Your Picture"
-                    class="img-fluid rounded-circle img-responsive"
-                    width="200"
-                    height="200"
-                    width="200"
-                    height="200"
-                  />
-                </div>
-              </main>
+              </div>
             </div>
           </div>
           <div
