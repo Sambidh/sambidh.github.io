@@ -27,3 +27,11 @@
   font-size: 1.75rem;
   letter-spacing: 3px;
 }
+
+.bg-honeydew {
+  background-color: honeydew;
+}
+
+.namedis {
+  font-size: large;
+}
