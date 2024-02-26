@@ -204,11 +204,11 @@
         <div
           id="intro"
           class="bg-image"
-          style="background-image: url('images/im1.jpg'); height: calc(80vh)"
+          style="background-image: url('images/im1.jpg'); height: calc(50vh)"
         >
           <div class="container-fluid d-flex h-100 p-1 text-center text-white">
             <div
-              class="container cover-container d-flex w-100 h-100 p-5 mx-auto flex-column"
+              class="container cover-container d-flex w-100 h-100 p-5 mx-auto flex-column align-items-center justify-content-center"
             >
               <header class="mb-auto">
                 <div>
@@ -217,21 +217,14 @@
               </header>
 
               <div
-                class="container mt-5 h-100 p-5 text-white bg-honeydew rounded-3"
+                class="container mt-5 h-70 p-5 text-white bg-honeydew rounded-3 d-flex align-items-center justify-content-center"
               >
-                <div class="row">
-                  <div class="col-md-6 text-start">
-                    <h1 class="display-2 text-dark">Hello</h1>
-                    <p class="lead text-muted namedis">
-                      My name is
-                      <a
-                        class="text-info link-offset-2 link-underline link-underline-opacity-0"
-                        href="https://www.linkedin.com/in/sambidhrai/"
-                        target="_blank"
-                      >
-                        Sambidh Rai
-                      </a>
-                    </p>
+                <div
+                  class="col-md-6 text-start d-flex align-items-center justify-content-center"
+                >
+                  <div class="text-center">
+                    <h1 class="display-4 text-dark">Resume</h1>
+                    <p class="lead text-muted namedis">Check my Resume here</p>
                     <p class="lead">
                       <button
                         type="button"
@@ -241,49 +234,41 @@
                         href="#top"
                         class="btn btn-lg btn-secondary fw-bold border-white bg-muted rounded-pill"
                       >
-                        Resume
+                        View
                       </button>
                     </p>
-                    <div
-                      class="modal fade"
-                      id="resumeModal"
-                      tabindex="-1"
-                      aria-labelledby="resumeModalLabel"
-                      aria-hidden="true"
-                    >
-                      <div class="modal-dialog modal-fullscreen modal-xl">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="resumeModalLabel">
-                              My Resume
-                            </h5>
-                            <button
-                              type="button"
-                              class="btn-close"
-                              data-bs-dismiss="modal"
-                              aria-label="Close"
-                            ></button>
-                          </div>
-                          <div class="modal-body">
-                            <embed
-                              src="Sambidh cv.pdf"
-                              type="application/pdf"
-                              width="100%"
-                              height="100%"
-                            />
-                          </div>
+                  </div>
+
+                  <div
+                    class="modal fade"
+                    id="resumeModal"
+                    tabindex="-1"
+                    aria-labelledby="resumeModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog modal-fullscreen modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="resumeModalLabel">
+                            My Resume
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <embed
+                            src="Sambidh cv.pdf"
+                            type="application/pdf"
+                            width="100%"
+                            height="100%"
+                          />
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-6 ms-auto">
-                    <img
-                      src="images/sambidh1.png"
-                      alt="Sambidh Rai"
-                      class="img-fluid img-thumbnail rounded-circle float-end"
-                      width="60%"
-                      height="auto"
-                    />
                   </div>
                 </div>
               </div>
@@ -296,7 +281,78 @@
         </div>
         <!-- Intro -->
       </section>
+
       <!--Section: Design Block-->
     </header>
+
+    <main>
+      <div class="container py-4">
+        <header class="pb-3 mb-4 border-bottom text-center">
+          <span class="fs-1">Work Experience</span>
+        </header>
+
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Cloud Factory</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <p class="card-text">Worked as an annotator</p>
+              </li>
+              <li class="list-group-item list-group-item-dark">
+                <p class="card-text">Oct 2020 –Present</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Code For Nepal</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <p class="card-text">An active member of this organization.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="card-text">
+                  In collaboration with fellow members of Code For Nepal, we
+                  orchestrated a highly successful nationwide hackathon,
+                  fostering innovation and engagement across the country. The
+                  collective effort and dedication of our organization’s members
+                  played a crucial role in ensuring the event’s success.
+                </p>
+              </li>
+              <li class="list-group-item list-group-item-dark">
+                <p class="card-text">Aug 2023 – Present</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Thapathali Maternity Hospital</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <p class="card-text">IT Technician</p>
+              </li>
+              <li class="list-group-item list-group-item-dark">
+                <p class="card-text">May 2015 – Oct 2015</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">PNG Pvt Ltd</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <p class="card-text">Associate Database Administrator</p>
+              </li>
+              <li class="list-group-item list-group-item-dark">
+                <p class="card-text">Jan 2015 – Apr 2015</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
