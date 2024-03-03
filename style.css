@@ -35,3 +35,9 @@
 .namedis {
   font-size: large;
 }
+
+@media (max-width: 768px) {
+  .text-center {
+    width: 100%;
+  }
+}
