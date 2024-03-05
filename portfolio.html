@@ -20,6 +20,10 @@
       rel="canonical"
       href="https://getbootstrap.com/docs/5.0/examples/jumbotron/"
     />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <script defer src="stycount.js"></script>
     <link rel="stylesheet" href="style.css" />
@@ -224,7 +228,7 @@
             <div class="row mt-5 p-5 rounded-3 bg-honeydew">
               <div class="col-md-6 ms-auto position-relative">
                 <div
-                  class="shadow-5"
+                  class="shadow-lg"
                   style="
                     background-image: url('images/IMG_4947.jpeg');
                     background-size: cover;
@@ -295,12 +299,9 @@
               </div>
             </div>
             <div class="d-flex align-items-center justify-content-center">
-              <button
-                type="button"
-                class="btn btn-lg btn-secondary rounded-pill"
-              >
+              <a href="#projects" class="btn btn-lg btn-secondary rounded-pill">
                 <i class="fas fa-angle-down me-0"></i>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -312,135 +313,142 @@
     </header>
 
     <main>
-      <div class="container py-4 border">
-        <header class="pb-3 mb-4 border-bottom text-center">
-          <span class="fs-1">Work Experience</span>
+      <div class="container py-4 border" id="projects">
+        <header class="pb-3 mb-4 text-left">
+          <div class="text-center" style="color: #000000">
+            <a
+              href="/"
+              class="d-flex align-items-center text-dark text-decoration-none"
+            >
+              <span class="fs-2 border-bottom my-3">Python Projects</span>
+            </a>
+            <img
+              src="images/logo/python.png"
+              class="float-start"
+              style="width: 10%"
+            />
+
+            <p class="text-justify">
+              I have successfully completed various Python projects, such as
+              analyzing Netflix movie data to investigate movie duration trends,
+              developing a Book Recommendation System using collaborative
+              filtering algorithms, and creating a Text Emotion Classification
+              model using Keras for sentiment analysis applications.
+            </p>
+          </div>
         </header>
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 1</h5>
+                      <p class="card-text">This is a sample card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 2</h5>
+                      <p class="card-text">This is another card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 3</h5>
+                      <p class="card-text">Yet another card here.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        <div class="card border border-0">
-          <div class="card-body">
-            <h4 class="card-title">Cloud Factory</h4>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <p class="card-text">Worked as an annotator</p>
-              </li>
-              <li class="list-group-item list-group-item-dark">
-                <p class="card-text">Oct 2020 –Present</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="card border border-0">
-          <div class="card-body">
-            <h4 class="card-title">Code For Nepal</h4>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <p class="card-text">An active member of this organization.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="card-text">
-                  In collaboration with fellow members of Code For Nepal, we
-                  orchestrated a highly successful nationwide hackathon,
-                  fostering innovation and engagement across the country. The
-                  collective effort and dedication of our organization’s members
-                  played a crucial role in ensuring the event’s success.
-                </p>
-              </li>
-              <li class="list-group-item list-group-item-dark">
-                <p class="card-text">Aug 2023 – Present</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="card border border-0">
-          <div class="card-body">
-            <h4 class="card-title">Thapathali Maternity Hospital</h4>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <p class="card-text">IT Technician</p>
-              </li>
-              <li class="list-group-item list-group-item-dark">
-                <p class="card-text">May 2015 – Oct 2015</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="card border border-0">
-          <div class="card-body">
-            <h4 class="card-title">PNG Pvt Ltd</h4>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <p class="card-text">Associate Database Administrator</p>
-              </li>
-              <li class="list-group-item list-group-item-dark">
-                <p class="card-text">Jan 2015 – Apr 2015</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+            <!-- Add more carousel items for additional rows as needed -->
+            <!-- Example: -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 1</h5>
+                      <p class="card-text">This is a sample card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 2</h5>
+                      <p class="card-text">This is another card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 3</h5>
+                      <p class="card-text">Yet another card here.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      <div class="container py-4 border">
-        <header class="pb-3 mb-4 border-bottom text-center">
-          <span class="fs-1">Professional Skillset</span>
-        </header>
-        <div class="card border border-0">
-          <div class="card-body text-start">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <p class="card-text">
-                  <b>Programming Languages:</b> Python, SQL
-                </p>
-              </li>
-              <li class="list-group-item">
-                <p class="card-text">
-                  <b>Technologies:</b> Microsoft PowerBI, Microsoft Excel,
-                  Pandas, Mathplotlib, BeautifulSoup, Selenium.
-                </p>
-              </li>
-            </ul>
+            <!-- Add more carousel items for additional rows as needed -->
+            <!-- Example: -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 1</h5>
+                      <p class="card-text">This is a sample card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 2</h5>
+                      <p class="card-text">This is another card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 3</h5>
+                      <p class="card-text">Yet another card here.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="container py-4 border">
-        <header class="pb-3 mb-4 border-bottom text-center">
-          <span class="fs-1">Education</span>
-        </header>
-        <div class="card border border-0">
-          <div class="card-body text-start">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <h4>
-                  Pokhara University
-                  <span class="badge rounded-pill bg-secondary"
-                    >9/2016 - 4/2023</span
-                  >
-                </h4>
-
-                <p class="card-text">
-                  <b>Bachelor of Engineering in Information Technology</b>
-                  GPA : 2.6
-                </p>
-              </li>
-              <li class="list-group-item">
-                <h4>
-                  Datacamp
-                  <span class="badge rounded-pill bg-secondary"
-                    >10/2022 - 5/2023</span
-                  >
-                </h4>
-
-                <p class="card-text">
-                  <b>Data Analyst with Python</b>
-                  Completed the Data Analyst with Python course on DataCamp,
-                  acquiring practical skills in data manipulation, exploratory
-                  data analysis, and data visualization for informed
-                  decision-making.
-                </p>
-              </li>
-            </ul>
-          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExample"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExample"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </main>
