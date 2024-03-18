@@ -379,56 +379,91 @@
           <!-- Gallery -->
 
           <div class="container mt-5">
+            <h3 class="text-muted"><b>Gallery</b></h3>
+            <h5 class="text-muted">
+              <b>Recap: 'Data Crunch' Hackathon by Code For Nepal</b>
+            </h5>
+            <p class="lead text-justify">
+              Presented here are snapshots from the 'Data Crunch' hackathon
+              organized by 'Code For Nepal', where myself and other members
+              collaborated to host a successful event. Though initially
+              challenging, the teamwork proved seamless, and it was a pleasure
+              to collaborate with such talented individuals. With a total of 9
+              teams comprising 30 participants, each contributing to 9 distinct
+              projects, the hackathon showcased remarkable creativity and
+              potential for positive impact on our nation.
+            </p>
             <div class="row">
-              <h4><b>Gallery</b></h4>
+              <!-- First Column -->
               <div class="col-md-4">
-                <img
-                  src="images/gallery/cfn.jpg"
-                  class="img-fluid img-thumbnail"
-                  alt="Image 1"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal1"
-                />
+                <!-- Portrait Image 1 -->
+                <div class="mb-3">
+                  <img
+                    src="images/gallery/cfn.jpg"
+                    class="img-fluid img-thumbnail"
+                    alt="Portrait Image 1"
+                    data-bs-toggle="modal"
+                    data-bs-target="#portraitModal1"
+                  />
+                </div>
+                <!-- Portrait Image 2 -->
               </div>
+              <!-- Second Column -->
               <div class="col-md-4">
-                <img
-                  src="images/gallery/dc.jpg"
-                  class="img-fluid img-thumbnail"
-                  alt="Image 2"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal2"
-                />
+                <!-- Portrait Image 3 -->
+                <div class="mb-3">
+                  <img
+                    src="images/gallery/dc.jpg"
+                    class="img-fluid img-thumbnail"
+                    alt="Portrait Image 3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#portraitModal3"
+                  />
+                </div>
+                <!-- Portrait Image 4 -->
               </div>
-
+              <!-- Third Column -->
               <div class="col-md-4">
-                <img
-                  src="images/gallery/dc1.jpg"
-                  class="img-fluid img-thumbnail"
-                  alt="Image 3"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal3"
-                />
+                <!-- Landscape Image 1 (Top) -->
+                <div class="mb-3">
+                  <img
+                    src="images/gallery/cfn1.jpg"
+                    class="img-fluid img-thumbnail"
+                    alt="Landscape Image 1"
+                    data-bs-toggle="modal"
+                    data-bs-target="#landscapeModal1"
+                  />
+                </div>
+                <!-- Landscape Image 2 (Bottom) -->
+                <div class="mb-3">
+                  <img
+                    src="images/gallery/dc1.jpg"
+                    class="img-fluid img-thumbnail"
+                    alt="Landscape Image 2"
+                    data-bs-toggle="modal"
+                    data-bs-target="#landscapeModal2"
+                  />
+                </div>
+                <div class="mb-3">
+                  <img
+                    src="images/gallery/hk1.jpg"
+                    class="img-fluid img-thumbnail"
+                    alt="Landscape Image 3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#landscapeModal3"
+                  />
+                </div>
               </div>
-              <div class="col-md-4">
-                <img
-                  src="images/gallery/dc1.jpg"
-                  class="img-fluid img-thumbnail"
-                  alt="Image 3"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal3"
-                />
-              </div>
-
-              <!-- Add more images here -->
             </div>
           </div>
 
-          <!-- Modal -->
+          <!-- Portrait Modals -->
+          <!-- Modal 1 -->
           <div
             class="modal fade"
-            id="exampleModal1"
+            id="portraitModal1"
             tabindex="-1"
-            aria-labelledby="exampleModalLabel"
+            aria-labelledby="portraitModalLabel1"
             aria-hidden="true"
           >
             <div class="modal-dialog modal-md">
@@ -437,18 +472,20 @@
                   <img
                     src="images/gallery/cfn.jpg"
                     class="img-fluid"
-                    alt="Preview Image"
-                    id="previewImage"
+                    alt="Portrait Image 1"
                   />
                 </div>
               </div>
             </div>
           </div>
+          <!-- Modal 2 -->
+
+          <!-- Modal 3 -->
           <div
             class="modal fade"
-            id="exampleModal2"
+            id="portraitModal3"
             tabindex="-1"
-            aria-labelledby="exampleModalLabel"
+            aria-labelledby="portraitModalLabel3"
             aria-hidden="true"
           >
             <div class="modal-dialog modal-md">
@@ -457,18 +494,41 @@
                   <img
                     src="images/gallery/dc.jpg"
                     class="img-fluid"
-                    alt="Preview Image"
-                    id="previewImage"
+                    alt="Portrait Image 3"
                   />
                 </div>
               </div>
             </div>
           </div>
+          <!-- Modal 4 -->
+
+          <!-- Landscape Modals -->
+          <!-- Modal 1 -->
           <div
             class="modal fade"
-            id="exampleModal3"
+            id="landscapeModal1"
             tabindex="-1"
-            aria-labelledby="exampleModalLabel"
+            aria-labelledby="landscapeModalLabel1"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img
+                    src="images/gallery/cfn1.jpg"
+                    class="img-fluid"
+                    alt="Landscape Image 1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal 2 -->
+          <div
+            class="modal fade"
+            id="landscapeModal2"
+            tabindex="-1"
+            aria-labelledby="landscapeModalLabel2"
             aria-hidden="true"
           >
             <div class="modal-dialog modal-xl">
@@ -477,8 +537,27 @@
                   <img
                     src="images/gallery/dc1.jpg"
                     class="img-fluid"
-                    alt="Preview Image"
-                    id="previewImage"
+                    alt="Landscape Image 2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal 3-->
+          <div
+            class="modal fade"
+            id="landscapeModal3"
+            tabindex="-1"
+            aria-labelledby="landscapeModalLabel3"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img
+                    src="images/gallery/hk1.jpg"
+                    class="img-fluid"
+                    alt="Landscape Image 2"
                   />
                 </div>
               </div>
